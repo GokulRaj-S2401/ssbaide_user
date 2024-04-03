@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Popins', sans-serif;
+   background-color: #f3f3f3;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+ /* header */
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: white;
+   color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+   background-color: #6666FF;
+   color: #fff;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   width: 100px;
+   cursor: pointer;
+   }
+
+.logo {
+   float: left;
+   width: 100px; 
+   height: auto;
+}
+
+.text {
+   font-size: 17px;
+   color: #000;
+   font-weight: 600;
+}
+
+/* between text ie classes and my department*/
+
+.classTxt {
+   padding-top: 20px;
+   padding-bottom: 10px;
+   font-size: 15px;
+   color: #808080;
+}
+
+/* small small containers */
+
+.item {
+   margin-bottom: 20px;
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* BCA & data structure */
+.inside{
+   align-items: flex-start;
+   margin-right: auto;
+   padding: 5px;
+}
+
+.item h2 {
+   font-size: 12px;
+   color: #000;
+   padding-bottom: 3px;
+}
+
+.item p {
+   font-size: 10px;
+   color: #808080;
+}
+
+/* icons  */
+.icon {
+   background-color: #6666FF;
+   color: #fff;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.sideicon{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 10px;
+}
